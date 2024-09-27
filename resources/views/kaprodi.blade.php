@@ -5,6 +5,6 @@
 @section('content')
     <div class="head-title">
         <h1 class="text-3xl font-bold">Dashboard</h1>
-        <p>nfsubvujfc</p>
+        <p>Ini Dashboard kaprodi</p>
     </div>
 @endsection
