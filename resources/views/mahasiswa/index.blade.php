@@ -26,27 +26,27 @@
             <tbody>
                 <tr class="border-b">
                     <td class="md:px-6 md:py-4 p-2 font-normal text-gray-400 whitespace-nowrap">Nama</td>
-                    <td class="md:px-6 md:py-4 p-2">{{ $mahasiswadatapribadi->name }}</td>
+                    <td class="md:px-6 md:py-4 py-2 px-4">{{ $mahasiswadatapribadi->name }}</td>
                 </tr>
                 <tr class="border-b">
                     <td class="md:px-6 md:py-4 p-2 font-normal text-gray-400 whitespace-nowrap">NIM</td>
-                    <td class="md:px-6 md:py-4 p-2">{{ $mahasiswadatapribadi->nim }}</td>
+                    <td class="md:px-6 md:py-4 py-2 px-4">{{ $mahasiswadatapribadi->nim }}</td>
                 </tr>
                 <tr class="border-b">
                     <td class="md:px-6 md:py-4 p-2 font-normal text-gray-400 whitespace-nowrap">Email</td>
-                    <td class="md:px-6 md:py-4 p-2">{{ $mahasiswadatapribadi->user->email }}</td>
+                    <td class="md:px-6 md:py-4 py-2 px-4">{{ $mahasiswadatapribadi->user->email }}</td>
                 </tr>
                 <tr class="border-b">
                     <td class="md:px-6 md:py-4 p-2 font-normal text-gray-400 whitespace-nowrap">Kelas</td>
-                    <td class="md:px-6 md:py-4 p-2">{{ $mahasiswadatapribadi->kelas->name }}</td>
+                    <td class="md:px-6 md:py-4 py-2 px-4">{{ $mahasiswadatapribadi->kelas->name }}</td>
                 </tr>
                 <tr class="border-b">
                     <td class="md:px-6 md:py-4 p-2 font-normal text-gray-400 whitespace-nowrap">Tempat Lahir</td>
-                    <td class="md:px-6 md:py-4 p-2">{{ $mahasiswadatapribadi->tempat_lahir }}</td>
+                    <td class="md:px-6 md:py-4 py-2 px-4">{{ $mahasiswadatapribadi->tempat_lahir }}</td>
                 </tr>
                 <tr class="border-b">
                     <td class="md:px-6 md:py-4 p-2 font-normal text-gray-400 whitespace-nowrap">Tanggal Lahir</td>
-                    <td class="md:px-6 md:py-4 p-2">{{ $mahasiswadatapribadi->tanggal_lahir }}</td>
+                    <td class="md:px-6 md:py-4 py-2 px-4">{{ $mahasiswadatapribadi->tanggal_lahir }}</td>
                 </tr>
             </tbody>
         </table>
@@ -63,7 +63,7 @@
     
         @if ($mahasiswadatapribadi->edit) 
             <a href="{{ route('mahasiswa.edit', $mahasiswadatapribadi->id) }}">
-                <button type="button" class="text-white  bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-3000 font-medium rounded-lg text-sm md:py-2 py-[7px] md:px-4 text-center">
+                <button type="button" class="text-white  bg-gradient-to-r from-green-700  to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-3000 font-medium rounded-lg text-sm md:py-2 py-[7px] md:px-4 text-center">
                     Edit Data
                 </button>
             </a>

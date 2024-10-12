@@ -27,8 +27,8 @@
         <textarea id="keterangan" name="keterangan" class="block w-full px-1.5 py-2  md:p-2 border  border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-indigo-500 md:text-[15px] text-sm bg-gray-50" placeholder="Alasan perubahan data " required></textarea>
     </div>
 
-    <div class="grid grid-flow-row space-y-4 md:flex md:mt-5 mt-12   md:justify-end md:space-x-4">
-        <button type="submit" class="text-white md:px-2 py-[7.8px] md:py-2 bg-gradient-to-br block w-full from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm  text-center">
+    <div class="grid grid-flow-row gap-4 mt-8 md:flex  md:justify-end md:space-x-4">
+        <button type="submit" class="md:px-4 py-[10px] md:py-2 block  text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none  focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm  text-center">
             Kirim request
         </button>
         <a href="{{ route('mahasiswa.index') }}">
